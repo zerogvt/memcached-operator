@@ -70,6 +70,7 @@ rules:
   - cache.example.com
   resources:
   - '*'
+  - memcacheds
   verbs:
   - create
   - delete
